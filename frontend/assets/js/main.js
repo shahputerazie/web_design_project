@@ -10,6 +10,7 @@
         }, 1);
     };
     spinner(0);
+    document.addEventListener('partials:loaded', spinner);
     
     
     // Initiate the wowjs
@@ -176,4 +177,3 @@
    
 
 })(jQuery);
-
