@@ -14,7 +14,7 @@
 <!-- Spinner End -->
 
 <!-- Topbar Start -->
-<div class="container-fluid px-5 d-none border-bottom d-lg-block">
+<!-- <div class="container-fluid px-5 d-none border-bottom d-lg-block">
     <div class="row gx-0 align-items-center">
         <div class="col-lg-4 text-center text-lg-start mb-lg-0">
             <div class="d-inline-flex align-items-center" style="height: 45px">
@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container-fluid px-5 py-4 d-none d-lg-block">
     <div class="row gx-0 align-items-center text-center">
@@ -124,7 +124,7 @@
                         ><i class="fas fa-random"></i></span
                 ></a>
                 <a
-                    href="#"
+                    data-nav-link="bestseller"
                     class="text-muted d-flex align-items-center justify-content-center me-3"
                     ><span class="rounded-circle btn-md-square border"
                         ><i class="fas fa-heart"></i></span
@@ -135,7 +135,7 @@
                     ><span class="rounded-circle btn-md-square border"
                         ><i class="fas fa-shopping-cart"></i
                     ></span>
-                    <span class="text-dark ms-2">$0.00</span></a
+                    <span class="text-dark ms-2">RM0.00</span></a
                 >
             </div>
         </div>
@@ -230,35 +230,27 @@
                         <a data-nav-link="shop" class="nav-item nav-link"
                             >Shop</a
                         >
-                        <a data-nav-link="single" class="nav-item nav-link"
-                            >Single Page</a
+                        <a data-nav-link="bestseller" class="nav-item nav-link"
+                            >Bestseller</a
                         >
-                        <div class="nav-item dropdown">
-                            <a
-                                href="#"
-                                class="nav-link dropdown-toggle"
-                                data-bs-toggle="dropdown"
-                                >Pages</a
-                            >
-                            <div class="dropdown-menu m-0">
-                                <a
-                                    data-nav-link="bestseller"
-                                    class="dropdown-item"
-                                    >Bestseller</a
-                                >
-                                <a
-                                    data-nav-link="not-found"
-                                    class="dropdown-item"
-                                    >404 Page</a
-                                >
-                            </div>
-                        </div>
+                        <a data-nav-link="cart" class="nav-item nav-link"
+                            >Cart</a
+                        >
+                        <a data-nav-link="checkout" class="nav-item nav-link"
+                            >Checkout</a
+                        >
+                        <a data-nav-link="not-found" class="nav-item nav-link"
+                            >error404</a
+                        >
+                        <a data-nav-link="single" class="nav-item nav-link"
+                            >Product Details</a
+                        >
                         <a
                             data-nav-link="contact"
                             class="nav-item nav-link me-2"
                             >Contact</a
                         >
-                        <div class="nav-item dropdown d-block d-lg-none mb-3">
+                        <!-- <div class="nav-item dropdown d-block d-lg-none mb-3">
                             <a
                                 href="#"
                                 class="nav-link dropdown-toggle"
@@ -303,7 +295,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <a
                         href="#"
